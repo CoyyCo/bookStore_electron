@@ -1,8 +1,8 @@
 # 标准中文README
 
-[![](https://img.shields.io/badge/%E4%B8%BB%E9%A1%B5-CoyyCo%2FelectronBookStore-orange)](https://github.com/ITcyx/ChineseREADME)
+[![](https://img.shields.io/badge/%E4%B8%BB%E9%A1%B5-CoyyCo%2FbookStore_electron-orange)](https://github.com/CoyyCo/bookStore_electron)
 
-目前，市场对前端开发人员的要求也越来越高，不仅需要会Web端、移动端、小程序，而且还得会桌面端开发，因而报着边学习边开发的思想采用electron+node.js+python+mongodb来做一款bookstore，适用于electron初学者学习或有Node.js学习需求的码友们。该项目为项目的前端部分。
+目前，市场对前端开发人员的要求也越来越高，不仅需要会Web端、移动端、小程序，而且还得会桌面端开发，因而报着边学习边开发的思想采用Vue3+electron+node.js+python+mongodb来做一款bookstore，适用于electron初学者学习或有Node.js学习需求的码友们。该项目为项目的前端部分。
 
 ## 目录
 
@@ -22,8 +22,9 @@
 
 [![](https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-README.md-orange)](README.md)
 ```
-git clone httpxxxx
-yarn install
+git clone https://github.com/CoyyCo/bookStore_electron.git
+npm install
+npm install electron:serve
 ```
 
 
@@ -40,17 +41,13 @@ yarn install
 
 ## 相关项目
 
-项目后端地址[@CoyyCo/bookStore](https://github.com)
+项目后端地址[@CoyyCo/bookStore](https://github.com/CoyyCo/bookStore_node.git)
 
 ## 主要项目负责人
 
 [@CoyyCo](https://github.com/CoyyCo)
 
 ## 参与贡献方式
-
-[![](https://img.shields.io/badge/%E7%94%B3%E8%AF%B7-Pull%20Request-orange)](https://github.com/ITcyx/ChineseREADME/pulls)
-
-提交 [PR](https://github.com/ITcyx/ChineseREADME/pulls) 申请，我会视情况通过。
 
 ### 贡献人员
 
