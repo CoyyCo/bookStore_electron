@@ -1,14 +1,14 @@
+<script setup lang="ts">
+import {useRoute} from "vue-router";
+const route = useRoute()
+</script>
 <template>
-      <router-view/>
+  <router-view v-slot="{ Component }">
+    <keep-alive>
+      <component :is="Component" :key="route.fullPath"/>
+    </keep-alive>
+  </router-view>
 </template>
-<!-- <script>
-  setTimeout(() => {
-    document.documentElement.setAttribute('theme', 'dark')
-  }, 3000);
-  setTimeout(() => {
-    document.documentElement.removeAttribute('theme')
-  }, 6000);
-</script> -->
 <style lang="scss">
 :root {
   --background-color-main: #aaa;
@@ -45,3 +45,5 @@ body {
 
 }
 </style>
+<script setup lang="ts">
+</script>

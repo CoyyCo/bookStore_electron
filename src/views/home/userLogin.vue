@@ -27,7 +27,7 @@
 
 <script setup lang="ts">
 import bgimgUrl from '@/assets/bgimg.jpg'
-import logo from '@/assets/Logo.png'
+import logo from '@/assets/logo.png?url'
 </script>
 
 <style scoped lang="scss">

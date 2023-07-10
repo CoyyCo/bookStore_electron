@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="left__logo">
-      <n-image :src="require('@/assets/Logo.png')"/>
+      <n-image :src="require('@/assets/logo.png')"/>
     </div>
     <div class="center__input">
       <n-auto-complete
